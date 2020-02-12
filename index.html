@@ -1,0 +1,36 @@
+<html data-dpr="1" style="font-size: 40px;">
+<head>
+    <meta charset="utf-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="apple-touch-fullscreen">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>欢迎来到王 sir 的小站</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+</head>
+<body>
+    <div style="padding-top: 30px;">
+        <center>
+            <img src="http://101.200.46.38/usr/uploads/2020/02/4254010967.png">
+            <div class="btn">
+                <a><span>What will be, will be, Just let it be.</span></a>
+            </div>
+        </center>
+    </div>
+    <div class="lz" style="margin-top: 10px;">
+        <center><a href="http://101.200.46.38/index.php" target="_blank"><button class="button" style="padding-left: 64px;padding-right: 64px;">Blog's</button></a>
+        <a href="http://101.200.46.38/index.php/tools.html" target="_blank"><button class="button drive white" style="padding-left: 64px;padding-right: 64px;margin-top: 10px;margin-bottom: 10px;">Tools</button></a>
+        <a href="http://101.200.46.38/usr/uploads/2020/02/1196215028.jpg" target="_blank"><button class="button smoke dark" style="padding-left: 59px;padding-right: 59px;">WeChat</button></a></center>
+    </div>
+    <footer>
+        <h2 style="color: #6f6f6f;"><center>© 2020 <a href="http://101.200.46.38/index.php" target="_blank" style="color: #6f6f6f;">王 sir 的小站</a></center></h2>
+    </footer>
+
+<script>
+    $('.button').html((i, html) => {
+        return '<span><i>' + $.trim(html).split('').join('</i><i>') + '</i></span>';
+    });
+</script>
+</body>
+</html>
